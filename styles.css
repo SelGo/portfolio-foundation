@@ -1,0 +1,81 @@
+.hero-section {
+  background: url("https://images.pexels.com/photos/414171/pexels-photo-414171.jpeg?cs=srgb&dl=adventure-calm-clouds-414171.jpg&fm=jpg")
+    50% no-repeat;
+  background-size: cover;
+  height: 96vh;
+  text-align: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.hero-section .hero-section-text {
+  color: #fefefe;
+  text-shadow: 1px 1px 2px #0a0a0a;
+}
+
+.skills {
+  height: 50vh;
+  text-align: center;
+  background-color: #4d5768;
+}
+
+.skills-inner {
+  width: 50%;
+  margin-left: 25%;
+  padding-bottom: 5px;
+}
+
+.projects {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 100%;
+}
+
+.project-box img {
+  margin: 15px;
+  width: 250px;
+  height: 250px;
+  border-radius: 25px;
+}
+
+.about {
+  height: 35vh;
+  text-align: center;
+  background-color: #4d5768;
+  display: flex;
+  align-items: center;
+}
+
+.about-box {
+  background-color: #5e7499;
+  border-radius: 25px;
+  height: 30vh;
+  width: 50%;
+  margin-left: 25%;
+  padding-bottom: 5px;
+}
+
+.about-box,
+p {
+  padding: 5px;
+}
+
+.contact {
+  background-color: #006ead;
+  height: 25vh;
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  background-color: gray;
+}
